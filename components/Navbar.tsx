@@ -16,9 +16,9 @@ const Navbar = () => {
               <Image
                 src="/CompanyLogo.png"
                 alt="Hidalgo Homes Logo"
-                width={140}
-                height={30}
-                className="h-10 w-auto"
+                width={180}
+                height={45}
+                className="h-12 w-auto"
               />
             </Link>
           </div>

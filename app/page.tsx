@@ -16,6 +16,16 @@ export default function Home() {
           />
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 text-center">
+          <div className="flex justify-center mb-8">
+            <Image
+              src="/CompanyLogo.png"
+              alt="Hidalgo Homes Logo"
+              width={400}
+              height={100}
+              className="brightness-0 invert opacity-90 drop-shadow-2xl"
+              priority
+            />
+          </div>
           <h1 className="text-4xl md:text-7xl font-bold text-white mb-6 tracking-tight">
             Building Your Vision,<br />Crafting Your <span className="text-[#5c6d84]">Future</span>
           </h1>
