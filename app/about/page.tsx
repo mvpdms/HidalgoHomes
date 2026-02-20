@@ -12,11 +12,10 @@ export default function AboutPage() {
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center mb-32">
             <div className="relative h-[600px]">
-              <Image
+              <img
                 src="https://images.unsplash.com/photo-1593060242202-b8891f02fbc5?q=80&w=2070&auto=format&fit=crop"
                 alt="Construction Team"
-                fill
-                className="object-cover rounded-sm shadow-2xl"
+                className="w-full h-full object-cover rounded-sm shadow-2xl"
               />
             </div>
             <div>

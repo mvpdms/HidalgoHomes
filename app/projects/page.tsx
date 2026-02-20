@@ -25,11 +25,10 @@ export default function ProjectsPage() {
             {projects.map((proj) => (
               <div key={proj.id} className="group relative overflow-hidden bg-white shadow-sm border border-zinc-50 hover:shadow-xl transition-all duration-300">
                 <div className="relative h-80 overflow-hidden">
-                  <Image
+                  <img
                     src={proj.img}
                     alt={proj.title}
-                    fill
-                    className="object-cover group-hover:scale-110 transition-transform duration-700"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                   />
                   <div className="absolute top-4 right-4 bg-white/90 backdrop-blur px-3 py-1 text-[10px] font-bold uppercase tracking-widest text-[#0a1c36] shadow-sm">
                     {proj.category}
