@@ -16,6 +16,7 @@ export default function AboutPage() {
                 src="https://images.unsplash.com/photo-1593060242202-b8891f02fbc5?q=80&w=2070&auto=format&fit=crop"
                 alt="Construction Team"
                 className="w-full h-full object-cover rounded-sm shadow-2xl"
+                crossOrigin="anonymous"
               />
             </div>
             <div>

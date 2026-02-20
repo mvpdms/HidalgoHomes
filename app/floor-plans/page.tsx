@@ -27,6 +27,7 @@ export default function FloorPlansPage() {
                     src={plan.img}
                     alt={plan.name}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    crossOrigin="anonymous"
                   />
                 </div>
                 <div className="p-8">

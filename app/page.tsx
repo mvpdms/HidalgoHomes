@@ -11,6 +11,7 @@ export default function Home() {
             src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop"
             alt="Modern Custom Home"
             className="w-full h-full object-cover brightness-[0.5]"
+            crossOrigin="anonymous"
           />
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 text-center flex flex-col items-center">

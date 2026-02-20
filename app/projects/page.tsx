@@ -29,6 +29,7 @@ export default function ProjectsPage() {
                     src={proj.img}
                     alt={proj.title}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                    crossOrigin="anonymous"
                   />
                   <div className="absolute top-4 right-4 bg-white/90 backdrop-blur px-3 py-1 text-[10px] font-bold uppercase tracking-widest text-[#0a1c36] shadow-sm">
                     {proj.category}
