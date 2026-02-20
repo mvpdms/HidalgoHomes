@@ -3,25 +3,24 @@ import Image from "next/image";
 export default function AboutPage() {
   return (
     <div className="bg-white min-h-screen">
-      <section className="py-24">
+      <section className="py-32">
         <div className="max-w-7xl mx-auto px-4">
-          <div className="flex flex-col items-center text-center mb-20">
-            <h1 className="text-4xl md:text-5xl font-bold text-[#0a1c36] mb-6 tracking-tight">About Hidalgo Homes</h1>
-            <div className="h-1 w-20 bg-[#5c6d84]"></div>
+          <div className="flex flex-col items-center text-center mb-24">
+            <h1 className="text-5xl md:text-7xl font-bold text-[#0a1c36] mb-8 tracking-tighter uppercase">Our Legacy</h1>
+            <div className="h-2 w-32 bg-[#5c6d84]"></div>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center mb-32">
-            <div className="relative h-[600px]">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center mb-40">
+            <div className="relative h-[800px] shadow-[0_30px_60px_-15px_rgba(0,0,0,0.3)]">
               <img
-                src="https://images.unsplash.com/photo-1593060242202-b8891f02fbc5?q=80&w=2070&auto=format&fit=crop"
-                alt="Construction Team"
-                className="w-full h-full object-cover rounded-sm shadow-2xl"
-                crossOrigin="anonymous"
+                src="https://images.unsplash.com/photo-1448630360428-65456885c650?q=80&w=2067&auto=format&fit=crop"
+                alt="Our Vision"
+                className="w-full h-full object-cover rounded-sm"
               />
             </div>
             <div>
-              <h2 className="text-3xl font-bold text-[#0a1c36] mb-8 leading-tight italic font-serif">"Excellence isn't an act, it's a habit."</h2>
-              <div className="space-y-6 text-zinc-600 leading-relaxed text-lg font-light">
+              <h2 className="text-4xl md:text-5xl font-bold text-[#0a1c36] mb-10 leading-tight italic font-serif">"Building is not just our job, it's our heritage."</h2>
+              <div className="space-y-8 text-zinc-600 leading-relaxed text-xl font-light">
                 <p>
                   Founded with a passion for quality and an eye for architectural brilliance, Hidalgo Homes has become one of the region's most trusted names in custom home construction.
                 </p>
@@ -35,19 +34,22 @@ export default function AboutPage() {
             </div>
           </div>
 
-          <div className="bg-[#0a1c36] text-white p-16 rounded-sm">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
+          <div className="bg-[#0a1c36] text-white p-24 rounded-sm shadow-2xl relative overflow-hidden">
+            <div className="absolute top-0 right-0 w-full h-full opacity-5 pointer-events-none">
+                <img src="https://images.unsplash.com/photo-1503387762-592dea58ef21?q=80&w=2000&auto=format&fit=crop" className="w-full h-full object-cover" />
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-20 text-center relative z-10">
               <div>
-                <h3 className="text-4xl font-bold mb-2">15+</h3>
-                <p className="text-zinc-300 uppercase tracking-widest text-sm">Years of Craft</p>
+                <h3 className="text-7xl font-black mb-4 tracking-tighter">15+</h3>
+                <p className="text-zinc-400 uppercase tracking-[0.4em] text-xs font-bold">Years of Craft</p>
               </div>
               <div>
-                <h3 className="text-4xl font-bold mb-2">100%</h3>
-                <p className="text-zinc-300 uppercase tracking-widest text-sm">Client Satisfaction</p>
+                <h3 className="text-7xl font-black mb-4 tracking-tighter">100%</h3>
+                <p className="text-zinc-400 uppercase tracking-[0.4em] text-xs font-bold">Client Satisfaction</p>
               </div>
               <div>
-                <h3 className="text-4xl font-bold mb-2">60+</h3>
-                <p className="text-zinc-300 uppercase tracking-widest text-sm">Design Awards</p>
+                <h3 className="text-7xl font-black mb-4 tracking-tighter">60+</h3>
+                <p className="text-zinc-400 uppercase tracking-[0.4em] text-xs font-bold">Design Awards</p>
               </div>
             </div>
           </div>
