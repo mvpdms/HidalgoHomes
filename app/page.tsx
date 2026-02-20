@@ -70,6 +70,7 @@ export default function Home() {
                 src="https://images.unsplash.com/photo-1600607687940-4e5a99427c5e?q=80&w=2070&auto=format&fit=crop"
                 alt="Construction Detail"
                 className="w-full h-full object-cover rounded-sm"
+                crossOrigin="anonymous"
               />
             </div>
           </div>
@@ -101,6 +102,7 @@ export default function Home() {
                     src={proj.img}
                     alt={proj.title}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                    crossOrigin="anonymous"
                   />
                 </div>
                 <div className="px-4 pb-4 text-center">
