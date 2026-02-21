@@ -18,7 +18,7 @@ export default function Home() {
         </div>
         <div className="relative z-10 w-full max-w-7xl mx-auto px-4 text-center flex flex-col items-center">
           <h1 className="text-4xl md:text-8xl font-black text-white mb-8 tracking-tighter leading-none uppercase italic">
-            Building Your Vision,<br />Crafting Your <span className="text-[#5c6d84]">Future</span>
+            Building Your Vision,<br />Crafting Your <span className="text-[#94a3b8]">Future</span>
           </h1>
           <p className="text-xl md:text-3xl text-zinc-300 mb-12 max-w-3xl mx-auto font-light leading-relaxed">
             Premier custom home builders dedicated to architectural excellence and quality craftsmanship.
