@@ -4,10 +4,12 @@ const nextConfig: NextConfig = {
   /* config options here */
   reactCompiler: true,
   images: {
+    unoptimized: false,
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: '**.unsplash.com',
+        hostname: 'images.unsplash.com',
+        pathname: '/**',
       },
     ],
   },

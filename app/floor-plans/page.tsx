@@ -23,11 +23,12 @@ export default function FloorPlansPage() {
             {plans.map((plan) => (
               <div key={plan.id} className="flex flex-col border border-zinc-100 bg-white hover:border-[#5c6d84] transition-all group overflow-hidden shadow-sm">
                 <div className="relative h-[300px] overflow-hidden">
-                  <img
+                  <Image
                     src={plan.img}
                     alt={plan.name}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                    crossOrigin="anonymous"
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                    sizes="(max-width: 768px) 100vw, 50vw"
                   />
                 </div>
                 <div className="p-8">

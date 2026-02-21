@@ -7,24 +7,16 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-black">
         <div className="absolute inset-0 z-0">
-          <img
+          <Image
             src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop"
             alt="Modern Custom Home"
-            className="w-full h-full object-cover opacity-50"
+            fill
+            className="object-cover opacity-50"
+            sizes="100vw"
+            priority
           />
         </div>
         <div className="relative z-10 w-full max-w-7xl mx-auto px-4 text-center flex flex-col items-center">
-          <div className="mb-12 animate-fade-in w-full flex justify-center">
-            <div className="relative w-[300px] sm:w-[500px] md:w-[700px] h-[150px] sm:h-[200px] md:h-[250px]">
-              <Image
-                src="/CompanyLogo.png"
-                alt="Hidalgo Homes Logo Large"
-                fill
-                className="brightness-0 invert object-contain drop-shadow-[0_10px_10px_rgba(0,0,0,0.5)]"
-                priority
-              />
-            </div>
-          </div>
           <h1 className="text-4xl md:text-8xl font-black text-white mb-8 tracking-tighter leading-none uppercase italic">
             Building Your Vision,<br />Crafting Your <span className="text-[#5c6d84]">Future</span>
           </h1>
@@ -67,10 +59,12 @@ export default function Home() {
             </div>
             <div className="relative h-[600px] order-1 lg:order-2">
               <div className="absolute -inset-4 bg-zinc-100 -z-10 translate-x-8 translate-y-8"></div>
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1518780664697-55e3ad937233?q=80&w=2000&auto=format&fit=crop"
                 alt="Signature Design"
-                className="w-full h-full object-cover rounded-sm shadow-2xl"
+                fill
+                className="object-cover rounded-sm shadow-2xl"
+                sizes="(max-width: 1024px) 100vw, 50vw"
               />
             </div>
           </div>
@@ -93,10 +87,12 @@ export default function Home() {
             ].map((proj, i) => (
               <div key={i} className="group cursor-pointer bg-white p-4 shadow-sm hover:shadow-2xl transition-all duration-500">
                 <div className="relative h-96 mb-8 overflow-hidden">
-                  <img
+                  <Image
                     src={proj.img}
                     alt={proj.title}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-700"
+                    sizes="(max-width: 768px) 100vw, 33vw"
                   />
                 </div>
                 <div className="px-2 pb-2">

@@ -13,12 +13,13 @@ const Navbar = () => {
         <div className="flex justify-between h-24">
           <div className="flex items-center">
             <Link href="/" className="flex-shrink-0 flex items-center gap-3">
-              <div className="relative w-[180px] md:w-[240px] h-12 md:h-16">
+              <div className="relative w-[220px] md:w-[320px] h-14 md:h-20">
                 <Image
                   src="/CompanyLogo.png"
                   alt="Hidalgo Homes Logo"
                   fill
                   className="object-contain"
+                  sizes="(max-width: 768px) 220px, 320px"
                   priority
                 />
               </div>

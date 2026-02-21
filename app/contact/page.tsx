@@ -5,7 +5,7 @@ export default function ContactPage() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-24">
             <div>
-              <h1 className="text-4xl md:text-5xl font-bold text-[#0a1c36] mb-8 tracking-tight">Let's Build Your Dream Home</h1>
+              <h1 className="text-4xl md:text-5xl font-bold text-[#0a1c36] mb-8 tracking-tight">Let&apos;s Build Your Dream Home</h1>
               <p className="text-xl text-zinc-600 mb-12 leading-relaxed font-light">
                 Ready to take the first step? Fill out the form below, and our specialized architectural consultants will reach out to discuss your vision.
               </p>
