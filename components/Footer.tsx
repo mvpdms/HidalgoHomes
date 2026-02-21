@@ -7,13 +7,15 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
           <div className="col-span-1 md:col-span-2">
-            <Image
-              src="/CompanyLogo.png"
-              alt="Hidalgo Homes Logo"
-              width={180}
-              height={40}
-              className="mb-6"
-            />
+            <div className="relative w-[200px] md:w-[280px] h-12 md:h-18 mb-6">
+              <Image
+                src="/CompanyLogo.png"
+                alt="Hidalgo Homes Logo"
+                fill
+                className="object-contain object-left"
+                sizes="(max-width: 768px) 200px, 280px"
+              />
+            </div>
             <p className="text-zinc-500 text-sm max-w-md leading-6">
               Hidalgo Homes is a premier custom home builder dedicated to excellence, integrity, and building your vision. We create homes that reflect your unique lifestyle and stand the test of time.
             </p>
