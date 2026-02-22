@@ -7,13 +7,13 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
           <div className="col-span-1 md:col-span-2">
-            <div className="relative w-[200px] md:w-[280px] h-12 md:h-18 mb-6">
+            <div className="relative w-[240px] md:w-[340px] h-14 md:h-22 mb-6">
               <Image
                 src="/CompanyLogo.png"
                 alt="Hidalgo Homes Logo"
                 fill
                 className="object-contain object-left"
-                sizes="(max-width: 768px) 200px, 280px"
+                sizes="(max-width: 768px) 240px, 340px"
               />
             </div>
             <p className="text-zinc-500 text-sm max-w-md leading-6">

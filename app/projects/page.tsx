@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const projects = [
   { id: 1, title: "The Modern Oasis", loc: "Houston, TX", category: "Modern", img: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?q=80&w=2071&auto=format&fit=crop" },
-  { id: 2, title: "Coastal Contemporary", loc: "Galveston, TX", category: "Coastal", img: "https://images.unsplash.com/photo-1512918766674-ed62b9a79ad2?q=80&w=2070&auto=format&fit=crop" },
+  { id: 2, title: "Coastal Contemporary", loc: "Galveston, TX", category: "Coastal", img: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop" },
   { id: 3, title: "Urban Sophistication", loc: "Austin, TX", category: "Contemporary", img: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop" },
   { id: 4, title: "Lakeside Retreat", loc: "Conroe, TX", category: "Transitional", img: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2070&auto=format&fit=crop" },
   { id: 5, title: "Heritage Estate", loc: "Sugar Land, TX", category: "Traditional", img: "https://images.unsplash.com/photo-1518780664697-55e3ad937233?q=80&w=2000&auto=format&fit=crop" },
